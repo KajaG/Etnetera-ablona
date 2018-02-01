@@ -1,0 +1,281 @@
+<!doctype html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Etnetera Test</title>
+	<link rel="shortcut icon" type="image/png" href="css/images/favicon.png">
+	<link rel="stylesheet" href="css/stylesheet.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" href="css/flickity.min.css" type="text/css" media="screen">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+	<script type="text/javascript" src="js/flickity.pkgd.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<div class="left-part">
+				<a class="logo" href="">
+					<img class="desktop" src="css/images/logo-etnetera.jpg" alt="Etnetera">
+					<img class="mobile" src="css/images/logo-small.png" alt="Etnetera">
+				</a>
+			</div>
+			<div class="right-part">
+				<a href="" class="burger mobile"><i class="fas fa-bars fa-lg"></i></a>
+				<ul>
+					<li>
+						<a href="">Domů</a>
+					</li>
+					<li class="active">
+						<a href="">Kdo jsme</a>
+					</li>
+					<li>
+						<a href="">Co děláme</a>
+					</li>
+					<li>
+						<a href="">Reference</a>
+					</li>
+					<li>
+						<a href="">Práce u nás <span class="count">(4)</span></a>
+					</li>
+					<li>
+						<a href="">Kontakt</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="body">
+			<div class="main-carousel">
+				<div class="carousel-cell">
+					<div class="carousel-content">
+						<h2>Mobile development</h2>
+						<p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas.</p>
+						<p>Dramatically maintain clicks-and-mortar-solutions without functional solutions.</p>
+						<a class="button" href="#">Více o mobile</a>
+					</div>
+				</div>
+				<div class="carousel-cell">
+					<div class="carousel-content">
+						<h2>Mobile development</h2>
+						<p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas.</p>
+						<p>Dramatically maintain clicks-and-mortar-solutions without functional solutions.</p>
+						<a class="button" href="#">Více o mobile</a>
+					</div>
+				</div>
+				<div class="carousel-cell">
+					<div class="carousel-content">
+						<h2>Mobile development</h2>
+						<p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas.</p>
+						<p>Dramatically maintain clicks-and-mortar-solutions without functional solutions.</p>
+						<a class="button" href="#">Více o mobile</a>
+					</div>
+				</div>
+			</div>
+			<div class="info-stripe">
+				<p><span>Před 12 dny </span>Jiří Štěpán s Etnetera Activate poodhalil zákulisí vykutálené náborové kampaně <a href="">Přečíst</a></p>
+			</div>
+		<div class="content">
+			<div class="container">
+				<h1>Fronty u kávovaru</h1>
+				<div class="content-part">
+					<p><img src="css/images/etnetera-article.png" alt="Coffee article">Arabica latte shop macchiato doppio coffee steamed. Brewed, macchiato grounds medium, eu breve grinder frappuccino americano. Pumpkin spice, caffeine chicory dark medium arabica macchiato instant rich. Et, single shot aged half and ahalf lungo whipped, cinnamon cappuccino whipped id mazagran.</p>
+					<p><b>Con panna</b> sugar macchiato so macchiato in skinny variety mug that. A plunger pot acerbic, brewed medium java aromatic coffee. At mocha wings acerbic beans medium saucer. Cup extra sit half and half robust java crema turkish.</p>
+					<p class="clear-left">Medium aroma cream qui medium coffee arabica, caffeine et <a href="">caramelization cup</a> plunger pot. Eu, plunger pot organic dark, cinnamon, redeye wings fair trade whipped lungo crema. Carajillo caramelization americano, plunger pot, filter coffee foam siphon roast and java.</p>
+					<p>Galão a, breve, at white, latte variety irish at flavour barista. Half and half, so, sweet, <a href="#" class="tooltip">affogato&nbsp;galão</a>, half and half sugar irish trifecta chicory. Single origin, espresso, con panna french press et steamed robust.</p>
+				</div>
+				<div class="content-part">
+					<div class="graphs">
+						<div class="graphs-legend"><img class="chart-legend-logo" src="css/images/logo-small.png" alt="logo malé" /><img class="chart-legend-clock" src="css/images/clock.png" alt="hodiny"></div>
+						<div class="graph">
+							<canvas id="chart" style="max-width: 500px; display: inline-block, width: 100%" width="500"></canvas>
+
+							<canvas id="chartHor" class="mobile" style="max-width: 500px; display: inline-block, width: 100%" width="500" height="500"></canvas>
+						</div>
+					</div>
+				</div>
+				<div class="content-part columns">
+					<h3>Více o kávě</h3>
+					<div>
+						<p>Shop robust café au lait, cortado that, kopi-luwak skinny sweet crema fair <b>trade aged</b>, cultivar medium decaffeinated medium siphon crema cappuccino macchiato froth roast cinnamon aroma crema. Con panna americano skinny blue mountain decaffeinated, trifecta barista sugar, in saucer in filter that. Roast sit, robusta aged spoon, filter beans blue mountain milk crema dark eu <a href="">affogato barista</a> caffeine grinder, aromatic instant cup as robusta steamed doppio. Aftertaste, kopi-luwak, cappuccino siphon beans galão decaffeinated mug, froth half and <b>half eu java roast</b>, lungo, id fair trade organic doppio filter instant carajillo.
+						</p>
+						<p>
+						Id siphon and, java, cappuccino milk cortado, siphon macchiato galão a irish flavour. Carajillo irish percolator steamed, medium galão latte, mocha est, medium, iced cappuccino americano, caramelization ristretto, in latte, flavour cup roast trifecta aged. Variety single origin steamed, at, galão bar turkish con panna cream aroma variety carajillo doppio cinnamon. Iced, single shot, est cup shop viennese dark crema macchiato wings single shot plunger pot foam aftertaste so to go white at acerbic a aftertaste.
+						</p>
+						<p>
+						Irish carajillo decaffeinated instant, pumpkin spice as, cup, dripper strong breve, est white crema viennese latte. Irish cup medium body organic, white americano galão plunger pot coffee, robust, carajillo, steamed, cream, java, cinnamon mazagran so caffeine latte flavour. <b>Shop, turkish iced</b> qui that steamed sweet, mazagran, macchiato est robusta spoon as, rich eu crema, chicory foam single shot organic sugar galão seasonal trifecta. Viennese half and half organic aged <a href="">extraction cup</a>, espresso irish latte mug grinder turkish variety.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="container">
+			<a class="uppercase copy" href=""><b>COPYRIGHT</b></a>
+			<p class="uppercase">&copy; <b>2015 Etnetera</b></p>
+			<p>Jsme hrdým členem <a href="">Etnetera Group</a></p>
+		</div>
+	</div>
+	<script>
+		$(document).ready(function(){
+			$('.main-carousel').flickity({
+			  pageDots: false,
+			  wrapAround: true,
+			  draggable: true,
+			  contain: true
+			});
+
+			$(document).on('mouseenter','.tooltip', function(){
+				var tooltipBox = $(this).find(".tooltip-box");
+				if(tooltipBox.length>0){
+					tooltipBox.show();
+					console.log("tool")
+				} else{
+					$(this).append('<span class="tooltip-box">espresso!<i class="fas fa-caret-down fa-lg"></i></span>').show();
+				}
+			})
+
+			var ctx = document.getElementById('chart').getContext('2d');
+			var ctxHor = document.getElementById('chartHor').getContext('2d');
+			var chart = new Chart(ctx, {
+			    // The type of chart we want to create
+			    type: 'bar',
+			    responsive: 'true',
+			    // The data for our dataset
+			    data: {
+			        labels: ["8:00","", "9:00","", "10:00","", "11:00","", "12:00","", "13:00","", "14:00","","15:00","","16:00","","17:00","","18:00","","19:00","","20:00","","21:00","","22:00"],
+			        datasets: [{
+			            label: "bez fronty",
+			            backgroundColor: '#ffc59b',
+			            borderColor: '#ffc59b',
+			            data: [7,,,,3,5,,,,,,,,5,7,,9,,,,,,,8,,,8,7,5],
+			        },{
+			        	label: "možnost fronty",
+			        	backgroundColor: '#f88c6c',
+			        	showInLegend: true,
+			        	pointStyle: 'round',
+			            borderColor: '#f88c6c',
+			            data: [,14,13,12,,,12,,,,13,12,10,,,12,,,,,,12,12,,,12,,,],
+			       	},{
+			       		label: "pravděpodobné čekání ve frontě",
+			        	backgroundColor: '#e64e21',
+			            borderColor: '#e64e21',
+			            data: [,,,,,,,22,20,18,,,,,,,,19,16,18,17,,,,18,,,,],
+			       	}
+			        ]
+			    },
+
+			    // Configuration options go here
+			    options: {
+				    scales: {
+				      yAxes: [{
+				        gridLines: {
+				          drawOnChartArea: false
+				        },
+				        ticks:{
+				      	display: false
+				      }
+				      }],
+				      xAxes: [{
+				        gridLines: {
+				          drawOnChartArea: false
+				        },
+				        barThickness: 17,
+				        categoryPercentage: 0,
+				      }]
+				    },
+				    legend: {
+				    	position: "bottom",
+				    	labels:{
+				    		usePointStyle: true
+				    	}
+				    },
+				    title: {
+				    	display: true,
+            			text: 'Pondělí',
+            			fontSize: 24,
+            			fontStyle: 'lighter',
+            			color: '#000',
+				    }
+				  },
+			});
+
+			var chartHoriz = new Chart(ctxHor, {
+			    // The type of chart we want to create
+			    type: 'horizontalBar',
+			    responsive: 'true',
+			    // The data for our dataset
+			    data: {
+			        labels: ["8:00","", "9:00","", "10:00","", "11:00","", "12:00","", "13:00","", "14:00","","15:00","","16:00","","17:00","","18:00","","19:00","","20:00","","21:00","","22:00"],
+			        datasets: [{
+			            label: "bez fronty",
+			            backgroundColor: '#ffc59b',
+			            borderColor: '#ffc59b',
+			            data: [7,,,,3,5,,,,,,,,5,7,,9,,,,,,,8,,,8,7,5],
+			        },{
+			        	label: "možnost fronty",
+			        	backgroundColor: '#f88c6c',
+			        	showInLegend: true,
+			        	pointStyle: 'round',
+			            borderColor: '#f88c6c',
+			            data: [,14,13,12,,,12,,,,13,12,10,,,12,,,,,,12,12,,,12,,,],
+			       	},{
+			       		label: "pravděpodobné čekání ve frontě",
+			        	backgroundColor: '#e64e21',
+			            borderColor: '#e64e21',
+			            data: [,,,,,,,22,20,18,,,,,,,,19,16,18,17,,,,18,,,,],
+			       	}
+			        ]
+			    },
+
+			    // Configuration options go here
+			    options: {
+				    scales: {
+				      yAxes: [{
+				        gridLines: {
+				          drawOnChartArea: false
+				        },
+				        barThickness: 17,
+				        categoryPercentage: 0,
+				      }],
+				      xAxes: [{
+				        gridLines: {
+				          drawOnChartArea: false
+				        },
+					    ticks:{
+					 	  	display: false
+					    }
+				      }]
+				    },
+				    legend: {
+				    	position: "bottom",
+				    	labels:{
+				    		usePointStyle: true
+				    	}
+				    },
+				    title: {
+				    	display: true,
+            			text: 'Pondělí',
+            			fontSize: 24,
+            			fontStyle: 'lighter',
+            			color: '#000',
+				    }
+				  },
+			});
+			
+			$(document).on('click', '.burger', function(e){
+				e.preventDefault();
+				var burgerList = $(this).parent().find('ul');
+				if(burgerList.is(':visible')){
+					burgerList.slideUp('slow');
+				} else{
+					burgerList.slideDown('slow');
+				}
+			})	
+		});
+	</script>
+</body>
+</html>

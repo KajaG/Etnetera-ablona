@@ -1,0 +1,151 @@
+@media only screen and (max-width: 768px){
+	.header .left-part{
+		max-width: 100px;
+	}
+
+	.carousel-content p{
+		max-width: 100%;
+		font-size: 16px;
+	}
+
+	.carousel-content a{
+		left: 0;
+		max-width: 190px;
+	}
+
+	.content-part.columns div{
+		column-count: 1
+	}
+
+	.header .container{
+		padding: 0 20px;
+	}
+
+	.header .right-part ul{
+		padding-left: 0;
+	}
+
+	.header .right-part ul li{
+		padding: 0 5px;
+	}
+
+	.header .right-part ul li a{
+		font-size: 10px;
+	}
+
+	.carousel-content h2{
+		font-size: 36px;
+	}
+
+	#chart{
+		max-width: 450px !important;
+	}
+
+	@media only screen and (max-width: 560px){
+		.graphs .graphs-legend{
+			display: none;
+		}
+
+		#chart, #chartHor{
+			max-width: 100% !important;
+		}
+
+		.desktop{
+			display: none;
+		}
+
+		img.mobile{
+			display: inline-block;
+		}
+
+		.carousel-content a{
+			bottom: 10%;
+		}
+
+		.carousel-content{
+			padding: 60px 20px;
+		}
+
+		@media only screen and (max-width: 480px){
+			.right-part ul{
+				display: none;
+				width: 100%;
+				background-color: #fff;
+				position: absolute;
+				left: 0;
+				right: 0;
+				z-index: 2;
+				padding: 10px 0 30px 0;
+				text-align: center;
+				border-bottom: 2px solid #e84d0f;
+			}
+
+			.header .right-part ul li{
+				display: block;
+				line-height: normal;
+				font-size: 32px;
+			}
+
+			.header{
+				position: relative;
+			}
+
+			.header .container{
+				padding: 0 50px;
+			}
+
+			a.mobile{
+				display: inline-block;
+				height: 40px;
+				width: 40px;
+				border: 2px solid #e84d0f;
+				vertical-align: middle;
+				line-height: 37px;
+				border-radius: 2px;
+				text-align: center;
+			}
+
+			#chart{
+				display: none !important;
+			}
+
+			#chartHor{
+				display: block !important;
+			}
+
+			.fa-bars{
+				color: #e84d0f;
+			}
+
+			.content h1{
+				font-size: 36px;
+			}
+
+			.info-stripe p{
+				font-size: 14px;
+			}
+
+			.content .content-part p img{
+				float: none;
+				max-width: 100%;
+				margin: 0px auto;
+				margin-bottom: 10px;
+				display: block;
+			}
+
+			.info-stripe{
+				padding: 0 10px;
+			}
+
+			.carousel-content{
+				padding-top: 35px;
+			}
+
+			.carousel-content p{
+				font-size: 14px;
+			}
+		}
+	}
+
+
+}
